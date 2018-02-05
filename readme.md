@@ -1,7 +1,8 @@
 # Street Fighter V Ranking Twitch Command
-### Step-by-step to create a command for Twitch chat that will display the Ranking and League Points for a player.
+### Step-by-step to create a command for your Twitch chat that will display the Ranking and League Points for a player.
 
-**REQUIREMENTS**
+## REQUIREMENTS
+
 * [Google Chrome](https://www.google.com.br/chrome/)
 * [Tampermonkey](http://tampermonkey.net/) (Extension for Google Chrome)
 * [Downloads Overwrite Existing Files](https://chrome.google.com/webstore/detail/downloads-overwrite-exist/fkomnceojfhfkgjgcijfahmgeljomcfk) (Extension for Google Chrome)
@@ -67,22 +68,24 @@
 })();
 ````
 
-3. You'll need to access the profile page who you want to show, for example: https://game.capcom.com/cfn/sfv/profile/Batera. Activate the Tempermonkey script, refresh the page and it should start downloading a txt file called "sfv_lp.txt" each 30 seconds.
+3. You'll need to access the profile page who you want to show, for example: https://game.capcom.com/cfn/sfv/profile/Batera. Leave the profile page opened, activate the Tempermonkey script, refresh the page and it should start downloading a TXT file called "sfv_lp.txt" each 30 seconds.
 
 4. Create the following command on Streamlabs Chatbot:
 
->Command: !sfv (or whatever you prefer)
+Command:
+>!sfv (or whatever you prefer)
 
->Response: $readline(C:\Users\YOUR_USER\Downloads\sfv_lp.txt)
+Response:
+>$readline(C:\Users\YOUR_USER\Downloads\sfv_lp.txt)
 
-<strong>Do not forget to adjust the path to "sfv_lp.txt" in your downloads folder.</strong>
+<strong><i>Don't forget to adjust the path to "sfv_lp.txt" in your downloads folder.</i></strong>
 
 ## Screenshots
-![](https://i.gyazo.com/3ccbdbd164fbcbbae85ecdc492936be8.png)
-1. Your Tampermonkey script list.
+![](https://i.gyazo.com/3ccbdbd164fbcbbae85ecdc492936be8.png)   
+1. Your Tampermonkey script list.   
 
-![](https://i.gyazo.com/a7d97ad6c14c4bae146eabc7c78d032c.png)
-2. The script itself.
+![](https://i.gyazo.com/a7d97ad6c14c4bae146eabc7c78d032c.png)   
+2. The script itself.   
 
-![](https://i.gyazo.com/6b8bc9ad1f02fc1854124181ed427c85.png)
-3. This is how you command will look in the chat.
+![](https://i.gyazo.com/6b8bc9ad1f02fc1854124181ed427c85.png)   
+3. This is how you command will look in the chat.   
