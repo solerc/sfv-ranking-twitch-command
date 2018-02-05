@@ -1,7 +1,7 @@
 # Street Fighter V Ranking Twitch Command
 ### Step-by-step to create a command for your Twitch chat that will display the Ranking and League Points for a player.
 
-## REQUIREMENTS
+## Requirements
 
 * [Google Chrome](https://www.google.com.br/chrome/)
 * [Tampermonkey](http://tampermonkey.net/) (Extension for Google Chrome)
@@ -81,11 +81,14 @@ Response:
 <strong><i>Don't forget to adjust the path to "sfv_lp.txt" in your downloads folder.</i></strong>
 
 ## Screenshots
-1. Your Tampermonkey script list.   
+Your Tampermonkey script list.   
 ![](https://i.gyazo.com/3ccbdbd164fbcbbae85ecdc492936be8.png)   
 
-2. The script itself.   
+The script itself.   
 ![](https://i.gyazo.com/a7d97ad6c14c4bae146eabc7c78d032c.png)   
 
-3. This is how your command will look in the chat.   
+Command in your Streamlabs Chatbot.   
+![](https://i.gyazo.com/c50121b683586707f90a389b898796d0.png)   
+
+This is how your command will look in the chat.   
 ![](https://i.gyazo.com/6b8bc9ad1f02fc1854124181ed427c85.png)   
