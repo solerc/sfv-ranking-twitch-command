@@ -67,7 +67,7 @@
 })();
 ````
 
-3. You will need to access the profile page who you want to show, for example: https://game.capcom.com/cfn/sfv/profile/Batera. Activate the Tempermonkey script, refresh the page and it should start downloading a txt file called "sfv_lp.txt" each 30 seconds.
+3. You'll need to access the profile page who you want to show, for example: https://game.capcom.com/cfn/sfv/profile/Batera. Activate the Tempermonkey script, refresh the page and it should start downloading a txt file called "sfv_lp.txt" each 30 seconds.
 
 4. Create the following command on Streamlabs Chatbot:
 
@@ -75,15 +75,14 @@
 
 >Response: $readline(C:\Users\YOUR_USER\Downloads\sfv_lp.txt)
 
+<strong>Do not forget to adjust the path to "sfv_lp.txt" in your downloads folder.</strong>
+
 ## Screenshots
-![](assets/screenshot-1.png)  
-1. 
+![](https://i.gyazo.com/3ccbdbd164fbcbbae85ecdc492936be8.png)
+1. Your Tampermonkey script list.
 
-![](assets/screenshot-2.png)  
-2. 
+![](https://i.gyazo.com/a7d97ad6c14c4bae146eabc7c78d032c.png)
+2. The script itself.
 
-![](assets/screenshot-3.png)  
-3. 
-
-![](assets/screenshot-4.png)
-4. 
+![](https://i.gyazo.com/6b8bc9ad1f02fc1854124181ed427c85.png)
+3. This is how you command will look in the chat.
