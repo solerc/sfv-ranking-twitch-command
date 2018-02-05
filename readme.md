@@ -72,6 +72,7 @@
 4. Create the following command on Streamlabs Chatbot:
 
 >Command: !sfv (or whatever you prefer)
+
 >Response: $readline(C:\Users\YOUR_USER\Downloads\sfv_lp.txt)
 
 ## Screenshots
