@@ -81,11 +81,11 @@ Response:
 <strong><i>Don't forget to adjust the path to "sfv_lp.txt" in your downloads folder.</i></strong>
 
 ## Screenshots
-![](https://i.gyazo.com/3ccbdbd164fbcbbae85ecdc492936be8.png)   
 1. Your Tampermonkey script list.   
+![](https://i.gyazo.com/3ccbdbd164fbcbbae85ecdc492936be8.png)   
 
-![](https://i.gyazo.com/a7d97ad6c14c4bae146eabc7c78d032c.png)   
 2. The script itself.   
+![](https://i.gyazo.com/a7d97ad6c14c4bae146eabc7c78d032c.png)   
 
-![](https://i.gyazo.com/6b8bc9ad1f02fc1854124181ed427c85.png)   
 3. This is how you command will look in the chat.   
+![](https://i.gyazo.com/6b8bc9ad1f02fc1854124181ed427c85.png)   
