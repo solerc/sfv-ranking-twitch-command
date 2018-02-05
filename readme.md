@@ -87,5 +87,5 @@ Response:
 2. The script itself.   
 ![](https://i.gyazo.com/a7d97ad6c14c4bae146eabc7c78d032c.png)   
 
-3. This is how you command will look in the chat.   
+3. This is how your command will look in the chat.   
 ![](https://i.gyazo.com/6b8bc9ad1f02fc1854124181ed427c85.png)   
